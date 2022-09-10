@@ -32,9 +32,11 @@
 
         </tr>
       </table>
-      <div>
+
+
+        <div id="comment_list">
         <%= render 'book_comments/comment_list', book: @book %>
-      </div>
+        </div>
 
       <div id="comment_form">
         <%= render 'book_comments/comment_form', book: @book, book_comment: @book_comment %>
